@@ -147,7 +147,7 @@ $ cd django-tg-auth/django_tg_auth
 $ python tgbot.py
 ```
 
-### 4. Open your browser and go to http://<host>:<port>
+### 4. Open your browser and go to http://host:port
 
 You can log in to the service using the following services: 
 1) Telegram Bot (by [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot))
