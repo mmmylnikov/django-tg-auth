@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.form-tgauth {
+  height: 100%;
+  max-width: 330px;
+  padding: 1rem;
+}
+
+#inputUsername,
+#inputFirstName {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#inputFirstName,
+#inputLastName {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

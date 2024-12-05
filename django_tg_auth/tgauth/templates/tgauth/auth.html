@@ -1,0 +1,33 @@
+{% extends "tgauth/base.html" %}
+
+{% load static %}
+{% load socialaccount %}
+
+
+{% block css_extra %}
+<link href="{% static 'tgauth/css/tgauth.css' %}" rel="stylesheet">
+{% endblock css_extra %}
+
+{% block content %}
+
+<form class="text-center">
+    <img class="mb-4" src="{% static 'logo/logo.png' %}" alt="" width="128" height="128">
+    <h1 class="h3 mb-3 fw-normal">
+        {% block title %}Django Telegram Auth{% endblock title %}
+    </h1>
+    <a href="https://t.me/{{tg_bot_username}}?start=auth" class="btn btn-success w-100 py-2 mb-2" type="submit">
+        <i class="bi bi-telegram"></i>
+        Sign in with Telegram Bot
+    </a>
+    <a href="{% provider_login_url 'telegram' %}" class="btn btn-primary w-100 py-2 mb-2" type="submit">
+        <i class="bi bi-telegram"></i>
+        Sign in with Telegram OAuth
+    </a>
+    <div class="w-100">
+        <!-- Telegram Login Widget -->
+        <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="{{tg_bot_username}}"
+            data-size="large" data-auth-url="{{tg_bot_auth_redirect}}" data-request-access="write"></script>
+    </div>
+</form>
+
+{% endblock content %}

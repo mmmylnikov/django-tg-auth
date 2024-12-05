@@ -19,3 +19,69 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+------------------------------------------------------------------------------
+
+This project has third-party dependencies:
+
+- Django: https://www.djangoproject.com
+  Copyright (c) Django Software Foundation and individual contributors
+  Licensed under BSD 3-Clause License (https://github.com/django/django/blob/main/LICENSE)
+
+- django-allauth: https://allauth.org/
+  Copyright (c) 2010-2021 Raymond Penners and contributors
+  Licensed under MIT (https://codeberg.org/allauth/django-allauth/src/branch/main/LICENSE)
+
+- Django-CSP: https://github.com/mozilla/django-csp
+  Copyright (c) Mozilla Foundation and individual contributors
+  Licensed under BSD 3-Clause (https://github.com/mozilla/django-csp/blob/main/LICENSE)
+
+- python-dotenv: https://github.com/theskumar/python-dotenv
+  Copyright (c) 2014, Saurabh Kumar (python-dotenv), 2013, Ted Tieken (django-dotenv-rw), 2013, Jacob Kaplan-Moss (django-dotenv)
+  Licensed under BSD 3-Clause (https://github.com/theskumar/python-dotenv/blob/main/LICENSE)
+
+- python-telegram-bot: https://github.com/python-telegram-bot/python-telegram-bot
+  Copyright © 2015-2024, Leandro Toledo
+  Licensed under GNU General Public License v3.0 (https://github.com/python-telegram-bot/python-telegram-bot/blob/master/LICENSE)
+
+- gunicorn: https://github.com/benoitc/gunicorn
+  2009-2024 (c) Benoît Chesneau <benoitc@gunicorn.org>
+  2009-2015 (c) Paul J. Davis <paul.joseph.davis@gmail.com>
+  Licensed text (https://github.com/benoitc/gunicorn/blob/master/LICENSE)
+
+- Bootstrap: https://getbootstrap.com
+  Copyright (c) 2011-2024 The Bootstrap Authors
+  Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+- Twitter Twemoji: https://github.com/twitter/twemoji
+  Copyright (c) 2020 Twitter, Inc and other contributors
+  Licensed under CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+
+These third-party dependencies helped in the development process and made it comfortable:
+
+- isort: https://github.com/timothycrosley/isort
+  Copyright (c) 2013 Timothy Edmund Crosley
+  Licensed under MIT (https://github.com/PyCQA/isort/blob/main/LICENSE)
+
+- django-stubs: https://github.com/typeddjango/django-stubs
+  Copyright (c) Maxim Kurnikov. All rights reserved.
+  Licensed under MIT (https://github.com/typeddjango/django-stubs/blob/master/LICENSE.md)
+
+- flake8: https://github.com/PyCQA/flake8
+  Copyright (C) 2011-2013 Tarek Ziade <tarek@ziade.org>
+  Copyright (C) 2012-2016 Ian Cordasco <graffatcolmingov@gmail.com>
+  Licensed under the MIT license (https://github.com/PyCQA/flake8/blob/main/LICENSE)
+
+- flake8-print: https://github.com/jbkahn/flake8-print
+  Copyright (c) 2016 Joseph Kahn
+  Licensed under the MIT license (https://github.com/JBKahn/flake8-print/blob/master/LICENCE)
+
+- mypy: https://github.com/python/mypy
+  Copyright (c) 2012-2023 Jukka Lehtosalo and contributors
+  Copyright (c) 2015-2023 Dropbox, Inc.
+  Licensed under MIT (https://github.com/python/mypy/blob/master/LICENSE)
+
+- mypy-extensions: https://github.com/python/mypy_extensions
+  Copyright (c) 2016-2017 Jukka Lehtosalo and contributors
+  Licensed under the MIT license (https://github.com/python/mypy_extensions/blob/master/LICENSE)
