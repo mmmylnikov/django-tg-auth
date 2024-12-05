@@ -166,7 +166,7 @@ To develop **django-tg-auth**, you need to run the following steps:
 1. Download the application's source code to a `rptodo_project/` directory
 
 ```sh
-$ git clone https://github.com/mmmylnikov/books-cli.git
+$ git clone https://github.com/mmmylnikov/django-tg-auth.git
 ```
 
 2. Create a Python virtual environment and activate it
