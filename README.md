@@ -163,7 +163,7 @@ For stop Application server press `Ctrl+C` in first terminal and for stop Telegr
 
 To develop **django-tg-auth**, you need to run the following steps:
 
-1. Download the application's source code to a `rptodo_project/` directory
+1. Download the application's source code to a `django-tg-auth/` directory
 
 ```sh
 $ git clone https://github.com/mmmylnikov/django-tg-auth.git
