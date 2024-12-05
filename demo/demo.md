@@ -40,7 +40,7 @@ You will be redirected to the page for entering your Telagram phone number.
 
 <div align="center"><img src="img05.png"></div>
 
-After entering the number, you will be sent a confirmation code from the official Telegram [notification account](https://t.me/TelegramSupport).
+After entering the number, you will be sent a confirmation code from the official Telegram notification account.
 
 <div align="center"><img src="img06.png"></div>
 
@@ -62,7 +62,7 @@ You will see a pop-up window confirming your Telegram phone number
 
 <div align="center"><img src="img08.png"></div>
 
-After entering the number, you will be sent a confirmation code from the official Telegram [notification account](https://t.me/TelegramSupport).
+After entering the number, you will be sent a confirmation code from the official Telegram notification account.
 
 <div align="center"><img src="img09.png"></div>
 
