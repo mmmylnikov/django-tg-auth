@@ -1,0 +1,50 @@
+{% extends "tgauth/base.html" %}
+
+{% load static %}
+{% load socialaccount %}
+
+
+{% block css_extra %}
+<link href="{% static 'tgauth/css/tgauth.css' %}" rel="stylesheet">
+{% endblock css_extra %}
+
+{% block content %}
+
+<!-- Profile Image or Logo -->
+<img class="mb-4 img-thumbnail" src="
+{% if request.user.bio.photo_url %}
+{{ request.user.bio.photo_url }}
+{% else %}
+{% static 'logo/logo.png' %}
+{% endif %}
+" alt="" width="256" height="256">
+
+<h1 class="h3 mb-3 fw-normal">
+    {% block title %}Django Telegram Auth{% endblock title %}
+</h1>
+
+<form class="text-start mb-3">
+    <div class="form-floating profile-field">
+        <input type="text" class="form-control" id="inputUsername" value="{{ request.user.bio.username }}" readonly>
+        <label for="inputUsername">Username</label>
+    </div>
+    <div class="form-floating">
+        <input type="email" class="form-control" id="inputFirstName" value="{{ request.user.bio.first_name }}" readonly>
+        <label for="inputFirstName">First Name</label>
+    </div>
+    <div class="form-floating">
+        <input type="email" class="form-control" id="inputLastName" value="{{ request.user.bio.last_name }}" readonly>
+        <label for="inputLastName">Last Name</label>
+    </div>
+</form>
+
+<!-- Logout Button -->
+<form method="POST" action="{% url 'tgauth-logout' %}">
+    {% csrf_token %}
+    <button class="btn btn-danger w-100 py-2 mb-2" type="submit">
+        <i class="bi bi-door-closed"></i>
+        Logout
+    </button>
+</form>
+
+{% endblock content %}
